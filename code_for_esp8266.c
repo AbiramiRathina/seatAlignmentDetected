@@ -1,10 +1,10 @@
 #include <ESP8266WiFi.h>
 #include <WiFiClient.h>
 #include <FirebaseArduino.h>
-#define FIREBASE_AUTH "nlZ2fv2n8tx8lUhqQnFSJmdE3LTKTxhRAcI2QtFM" 
-#define FIREBASE_HOST "seatingalignmentproject-default-rtdb.firebaseio.com"
-#define WIFI_SSID "vivo 1951"
-#define WIFI_PASSWORD "mona@1410"
+#define FIREBASE_AUTH "<auth>" 
+#define FIREBASE_HOST "<host>"
+#define WIFI_SSID "<ssid>"
+#define WIFI_PASSWORD "<password>"
 
 String values,sensor_data;
 
